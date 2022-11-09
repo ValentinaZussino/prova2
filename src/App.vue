@@ -1,8 +1,10 @@
 <!-- tamplate -->
 <template>
     <HeaderComponent/>
-    <p>{{message}}</p>
+    <p v-for="n in 5">{{message}}</p>
+    <div v-for="n in 2">
     <FooterComponent/>
+    </div>
 </template>
 
 <!-- script -->
