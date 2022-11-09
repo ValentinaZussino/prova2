@@ -1,16 +1,18 @@
 <!-- tamplate -->
 <template>
-    <HeaderComponentVue/>
+    <HeaderComponent/>
     <p>{{message}}</p>
-  
+    <FooterComponent/>
 </template>
 
 <!-- script -->
 <script>
-import HeaderComponentVue from './components/HeaderComponent.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 export default{
   components: {
-    HeaderComponentVue,
+    HeaderComponent,
+    FooterComponent,
   },
   data(){
     return {
